@@ -4,9 +4,9 @@
 ## NOTE
 This Repo is incomplete, but it contains the [jupyter notebook](yolov8-instance-segmentation.ipynb) used for downloading, quantizing, and verifying the accuracy for the yolov8-nano instance segmentation model that it used in the real-time code for live video instance segmentation.
 
-- To understand how the quantized model is being used in the final runfile, You can refer to [live_optimized.py](live_optimized.py) file here in this readme file.
+- To understand how the quantized model is being used in the final runfile, You can refer to [live_optimized.py](live_optimized.py) file.
 
-I will update the repo with final and complete code soon.
+I will update the repository with the complete code soon.
 
 ## Results
 
