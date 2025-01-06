@@ -17,10 +17,18 @@ The videos showing the owlseye performance are in the `.\Results` folder.
 
 ## EQTorch
 
-```
-This where the instructions on how to use the cuda and C kernels for Fixed-Posit and Posit can be used to extend the PyTorch.
-Give detailed step-by-step instructions on installation and the use after installation.
-```
+This section explains how to use the CUDA and C kernels for Fixed Posit and Posit to extend the PyTorch framework.
 
-[To BE ADDED]
+To install and use the EQTorch framework, navigate to the EQTorch directory and install the framework using the following command:
 
+```bash
+pip install -e ./
+```
+Once installed, you can import the tools from `qtorch` as follows:
+
+```python
+from qtorch.quant import Quantizer, quantizer
+from qtorch.optim import OptimLP
+from qtorch import Posit, FixedPosit
+```
+Refer to the example folder within the EQTorch directory for sample usage.
