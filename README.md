@@ -11,6 +11,16 @@ I will update the repository with the complete code soon.
 ## Results
 
 The videos showing the owlseye performance are in the `.\Results` folder.
-1. [Original Captured Video](Results\lowlight_noenhance.avi)
-2. [Direct Segmentation using YoloV8 on the Captured Video](Results\lowlight_original.avi)
-3. [OwlsEye](Results\lowlight_zerodce_filter.avi)
+1. [Original Captured Video](Results/lowlight_noenhance.avi)
+2. [Direct Segmentation using YoloV8 on the Captured Video](Results/lowlight_original.avi)
+3. [OwlsEye](Results/lowlight_zerodce_filter.avi)
+
+## EQTorch
+
+```
+This where the instructions on how to use the cuda and C kernels for Fixed-Posit and Posit can be used to extend the PyTorch.
+Give detailed step-by-step instructions on installation and the use after installation.
+```
+
+[To BE ADDED]
+
